@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <StackPanel HorizontalAlignment="Left" Height="301" Margin="10,10,0,0" VerticalAlignment="Top" Width="498">
+            <Label x:Name="label" Content="PUISSANCE4"/>
+            <Button x:Name="button" Content="Start"/>
+            <Button x:Name="button1" Content="Quitter"/>
+        </StackPanel>
+
     </Grid>
 </Window>
